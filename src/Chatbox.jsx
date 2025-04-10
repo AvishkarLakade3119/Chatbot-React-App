@@ -10,7 +10,7 @@ import Box from '@mui/material/Box';
 import SchoolIcon from '@mui/icons-material/School';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import CreateIcon from '@mui/icons-material/Create';
-import CodeIcon from '@mui/icons-material/Code';
+import CodeIcon from '@mui/iconas-material/Code';
 import Brightness3Icon from '@mui/icons-material/Brightness3';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import './chatbox.css';
@@ -58,6 +58,10 @@ function Chatbox({ api_key }) {
 
   return (
     <div className={`chatbox ${mode ? 'light-mode' : 'dark-mode'}`}>
+      <h2 style={{ textAlign: 'center', padding: '10px', color: mode ? '#333' : '#ddd' }}>
+  🚀 CI/CD Deployment Success — Avishkar 🚀
+</h2>
+
       <header>
         <div className='icon-top'><AccountCircleIcon />
         &nbsp;&nbsp;<span>Chatbox AI</span></div>
