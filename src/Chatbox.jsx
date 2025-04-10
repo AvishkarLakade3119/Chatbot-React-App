@@ -52,7 +52,7 @@ function Chatbox({ api_key }) {
   return (
     <div className={`chatbox ${mode ? 'light-mode' : 'dark-mode'}`}>
       <h2 style={{ textAlign: 'center', padding: '10px', color: mode ? '#333' : '#ddd' }}>
-        🚀 CI/CD Deployment Success — Avishkar 🚀
+        🚀 CI/CD Deployment Success — Shaiz 🚀
       </h2>
 
       <header>
